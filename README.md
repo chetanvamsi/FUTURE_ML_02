@@ -61,7 +61,6 @@ Priority: Medium
 
 The model successfully classifies support tickets and assigns priority based on keywords.
 
-(Add your screenshot here 👇)
 
 ![Output](screenshot.png)
 
