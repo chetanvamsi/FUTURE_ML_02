@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-# Support Ticket Classification (Task 2)
+# 📌 Support Ticket Classification (Task 2)
 
-## 📌 Objective
+## 🔹 Objective
 
 The goal of this project is to build a Machine Learning model that can automatically classify customer support tickets into categories and assign priority levels.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies
 
 * Python
 * Pandas
@@ -19,43 +18,52 @@ The goal of this project is to build a Machine Learning model that can automatic
 
 ## 📂 Dataset
 
-A simple dataset (`tickets.csv`) was created with two columns:
+A simple dataset (`tickets.csv`) is used with the following columns:
 
-* **Text** → Customer message
-* **Category** → Type of issue (Billing / Technical)
+* **Text** → Customer issue
+* **Category** → Type of problem (Billing / Technical)
 
-Example:
+### Example:
 
-```
-payment failed → Billing
-login issue → Technical
-```
+* "payment failed" → Billing
+* "login issue" → Technical
 
 ---
 
 ## ⚙️ Steps Performed
 
 1. Loaded dataset using Pandas
-2. Converted text data into numerical form using CountVectorizer
-3. Trained a classification model using Naive Bayes
-4. Predicted category for new support tickets
-5. Added priority logic (High / Medium / Low)
+2. Converted text into numerical form using CountVectorizer
+3. Trained model using Naive Bayes algorithm
+4. Predicted category for new input text
+5. Implemented priority logic (High / Medium / Low)
 
 ---
 
 ## ▶️ How It Works
 
-* Input: `"payment issue"`
-* Output:
+### Input:
 
-  * Category: Billing
-  * Priority: Medium
+```
+payment issue
+```
+
+### Output:
+
+```
+Category: Billing
+Priority: Medium
+```
 
 ---
 
 ## 📊 Output
 
 The model successfully classifies support tickets and assigns priority based on keywords.
+
+(Add your screenshot here 👇)
+
+![Output](screenshot.png)
 
 ---
 
@@ -64,8 +72,9 @@ The model successfully classifies support tickets and assigns priority based on 
 ```
 FUTURE_ML_02/
 │
-├── classification.ipynb
+├── classification.py
 ├── tickets.csv
+├── screenshot.png
 └── README.md
 ```
 
@@ -73,9 +82,6 @@ FUTURE_ML_02/
 
 ## 🚀 Conclusion
 
-This project demonstrates how Machine Learning can automate customer support by quickly classifying tickets and prioritizing them, helping teams respond faster.
+This project demonstrates how Machine Learning can be used to automate customer support by classifying tickets and prioritizing them efficiently.
 
 ---
-=======
-# FUTURE_ML_02
->>>>>>> 4bb59cfa66893e37af42173d133174ae56273ae1
